@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternSamples.FactoryMetho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternSamples.AbstractFactory", "PatternSamples.AbstractFactory\PatternSamples.AbstractFactory.csproj", "{E7770A75-B48B-487D-807B-343B0D664C87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternSamples.Prototype", "PatternSamples.Prototype\PatternSamples.Prototype.csproj", "{195DD40B-857A-441D-862D-B9951E4D3227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternSamples.Prototype", "PatternSamples.Prototype\PatternSamples.Prototype.csproj", "{195DD40B-857A-441D-862D-B9951E4D3227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternSamples.Composite", "PatternSamples.Composite\PatternSamples.Composite.csproj", "{B496DDC6-F40C-457A-AF5D-19125D30ED69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{195DD40B-857A-441D-862D-B9951E4D3227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{195DD40B-857A-441D-862D-B9951E4D3227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{195DD40B-857A-441D-862D-B9951E4D3227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B496DDC6-F40C-457A-AF5D-19125D30ED69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B496DDC6-F40C-457A-AF5D-19125D30ED69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B496DDC6-F40C-457A-AF5D-19125D30ED69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B496DDC6-F40C-457A-AF5D-19125D30ED69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
