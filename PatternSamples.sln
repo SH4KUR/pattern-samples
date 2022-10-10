@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternSamples.Composite", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternSamples.Adapter", "PatternSamples.Adapter\PatternSamples.Adapter.csproj", "{1E79163B-6BB6-4677-A178-49659874D8D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternSamples.Proxy", "PatternSamples.Proxy\PatternSamples.Proxy.csproj", "{CA266B7C-E0D5-4AE6-98F5-702491835C89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1E79163B-6BB6-4677-A178-49659874D8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E79163B-6BB6-4677-A178-49659874D8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E79163B-6BB6-4677-A178-49659874D8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA266B7C-E0D5-4AE6-98F5-702491835C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA266B7C-E0D5-4AE6-98F5-702491835C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA266B7C-E0D5-4AE6-98F5-702491835C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA266B7C-E0D5-4AE6-98F5-702491835C89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
