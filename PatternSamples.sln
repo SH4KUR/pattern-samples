@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternSamples.AbstractFact
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternSamples.Prototype", "PatternSamples.Prototype\PatternSamples.Prototype.csproj", "{195DD40B-857A-441D-862D-B9951E4D3227}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternSamples.Composite", "PatternSamples.Composite\PatternSamples.Composite.csproj", "{B496DDC6-F40C-457A-AF5D-19125D30ED69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternSamples.Composite", "PatternSamples.Composite\PatternSamples.Composite.csproj", "{B496DDC6-F40C-457A-AF5D-19125D30ED69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternSamples.Adapter", "PatternSamples.Adapter\PatternSamples.Adapter.csproj", "{1E79163B-6BB6-4677-A178-49659874D8D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternSamples.Adapter", "PatternSamples.Adapter\PatternSamples.Adapter.csproj", "{1E79163B-6BB6-4677-A178-49659874D8D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternSamples.Proxy", "PatternSamples.Proxy\PatternSamples.Proxy.csproj", "{CA266B7C-E0D5-4AE6-98F5-702491835C89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternSamples.Proxy", "PatternSamples.Proxy\PatternSamples.Proxy.csproj", "{CA266B7C-E0D5-4AE6-98F5-702491835C89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternSamples.ChainOfResponsibility", "PatternSamples.ChainOfResponsibility\PatternSamples.ChainOfResponsibility.csproj", "{0430E30F-B57C-4675-ACFF-9989794BCF6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CA266B7C-E0D5-4AE6-98F5-702491835C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA266B7C-E0D5-4AE6-98F5-702491835C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA266B7C-E0D5-4AE6-98F5-702491835C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0430E30F-B57C-4675-ACFF-9989794BCF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0430E30F-B57C-4675-ACFF-9989794BCF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0430E30F-B57C-4675-ACFF-9989794BCF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0430E30F-B57C-4675-ACFF-9989794BCF6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

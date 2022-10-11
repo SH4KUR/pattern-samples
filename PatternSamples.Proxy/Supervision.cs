@@ -23,7 +23,7 @@ namespace PatternSamples.Proxy
 
     public class SupervisionProxy : IRoom
     {
-        private IRoom _room;
+        private readonly IRoom _room;
 
         public SupervisionProxy(IRoom room)
         {
